@@ -1,0 +1,114 @@
+body {
+  background-color: #F0F0F0;
+}
+
+.btn {
+  font: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+/*----------  HEADER  ----------*/
+#header {
+  color: #0d5a9c;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  text-align : center;
+  text-shadow: 0 1px 0 #FFF;
+  letter-spacing: -1px;
+}
+
+#thin {
+  font-weight: 100;
+  font-size  : 69px;
+}
+
+#thick {
+  font-family: 'Cabin', sans-serif;
+  font-size  : 57px;
+  font-weight: 500;
+}
+
+
+
+
+/*----------  INPUT/SUBMIT  ----------*/
+.input {
+  padding-bottom: 10px;
+}
+
+.submit-button-wrapper {
+  padding: 0;
+  text-align: center;
+}
+
+#submit-button {
+  color: #424242;
+}
+
+
+
+
+/*----------  CHECKBOX  ----------*/
+.checkbox[name=todo] {
+  display: inline-block;
+  margin : 4px;
+  margin-right: 8px;
+}
+
+
+
+
+/*----------  LIST  ----------*/
+#list {
+  color: #999999;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  color: #5e5e5e;
+  list-style : none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom : 1px solid #e1dfdf;
+}
+
+li:first-child {
+  padding-top: 5px;
+}
+
+li:last-child {
+  border: none;
+}
+
+
+
+
+/*----------  EDIT/DELETE  ----------*/
+.edit-input {
+  display: none;
+}
+
+.edit-button,
+.edit-button:hover,
+.edit-button:focus {
+  font-size: 0.8em;
+  color  : #999;
+  padding: 2px;
+}
+
+.delete-button,
+.delete-button:hover,
+.delete-button:focus {
+  font-size: 0.8em;
+  color  : #e35b55;
+  padding: 2px;
+}
+
+
